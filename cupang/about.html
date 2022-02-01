@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="x.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20xX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+
+    <div class="big_container">
+        <div>
+            <img src="image/x.png" alt="">
+        </div>
+        <div class="bigin">
+                <div class="biginner">
+                    <img id="profile" src="image/x2.png" alt="">
+                    <span class="writter">Written by 20xX </span>
+                </div>
+                <div class="news">
+                    <p>
+                        안녕하세요. 20xX입니다 :)<br><br><br>
+                    </p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
